@@ -18,8 +18,8 @@
   - Matplotlib and Seaborn
 - Includes basic usage examples and visualizations.
 
-#### 3. 'DataPreprocessing_and_cleaning_ML_03.ipynb'  
-Covers essential data preprocessing and cleaning techniques such as:  
+#### 3.  `DataPreprocessing_and_cleaning_ML_03.ipynb`
+Covers essential **data preprocessing and cleaning techniques** such as:  
 
 - Handling missing values (mean/median imputation)  
 - Detecting outliers using Interquartile Range (IQR)  
