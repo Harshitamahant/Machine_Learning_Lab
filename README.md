@@ -18,12 +18,24 @@
   - Matplotlib and Seaborn
 - Includes basic usage examples and visualizations.
 
+#### 3. 'DataPreprocessing_and_cleaning_ML_03.ipynb'  
+Covers essential data preprocessing and cleaning techniques such as:  
+
+- Handling missing values (mean/median imputation)  
+- Detecting outliers using Interquartile Range (IQR)  
+- Label encoding of categorical features  
+- Feature scaling (Standardization and Normalization)  
+- Includes visualizations (boxplots) for outlier detection  
+
+Uses the **Boston Housing** dataset as an example.  
+
 ---
 
 ## 📊 Datasets
 
 - **houseprice_dataset (1).csv**: Clean dataset with house prices for regression tasks.
 - **improper_houseprice (1).csv**: Contains missing or improper data to explore preprocessing techniques like handling null values.
+- **Boston Housing** :url=" https://raw.githubusercontent.com/selva86/datasets/master/BostonHousing.csv"
 
 ---
 
