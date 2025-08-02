@@ -1,3 +1,6 @@
+# 📘 Machine Learning Lab Notebooks
+
+This repository contains Jupyter notebooks for various foundational machine learning concepts and algorithms, implemented with Python libraries such as NumPy, Pandas, Matplotlib, and Scikit-learn.
 
 ---
 
@@ -18,30 +21,45 @@
   - Matplotlib and Seaborn
 - Includes basic usage examples and visualizations.
 
-#### 3.  `DataPreprocessing_and_cleaning_ML_03.ipynb`
-Covers essential **data preprocessing and cleaning techniques** such as:  
-
-- Handling missing values (mean/median imputation)  
-- Detecting outliers using Interquartile Range (IQR)  
-- Label encoding of categorical features  
-- Feature scaling (Standardization and Normalization)  
+### 3. `DataPreprocessing_and_cleaning_ML_03.ipynb`
+- Covers essential **data preprocessing and cleaning techniques** such as:  
+  - Handling missing values (mean/median imputation)  
+  - Detecting outliers using Interquartile Range (IQR)  
+  - Label encoding of categorical features  
+  - Feature scaling (Standardization and Normalization)  
 - Includes visualizations (boxplots) for outlier detection  
+- Uses the **Boston Housing** dataset as an example.  
 
-Uses the **Boston Housing** dataset as an example.  
+### 4. `PCA_04_ML.ipynb`
+- Performs **Principal Component Analysis (PCA)** for dimensionality reduction and visualization.
+- Standardizes features using `StandardScaler` and extracts top principal components with `PCA` from Scikit-learn.
+- Visualizes:
+  - 2D projection using the first two principal components.
+  - Scree plot to show cumulative explained variance.
+- Helps understand data patterns in reduced dimensions.
+
+### 5. `KNN_05_ML.ipynb`
+- Implements **K-Nearest Neighbors (KNN)** classification using a small, manually defined dataset.
+- Classifies input points based on height and weight features using `k=3`.
+- Includes:
+  - Model training and prediction on test data
+  - Evaluation using a **confusion matrix**
+  - Confusion matrix visualization with `matplotlib`
 
 ---
 
 ## 📊 Datasets
 
-- **houseprice_dataset (1).csv**: Clean dataset with house prices for regression tasks.
-- **improper_houseprice (1).csv**: Contains missing or improper data to explore preprocessing techniques like handling null values.
-- **Boston Housing** :url=" https://raw.githubusercontent.com/selva86/datasets/master/BostonHousing.csv"
+- **houseprice_dataset (1).csv**: Clean dataset with house prices for regression tasks.  
+- **improper_houseprice (1).csv**: Contains missing or improper data to explore preprocessing techniques like handling null values.  
+- **Boston Housing**: [Download Link](https://raw.githubusercontent.com/selva86/datasets/master/BostonHousing.csv)  
+- **Sample dataset** for KNN and PCA: Hardcoded arrays used within the notebooks for demonstration.
 
 ---
 
 ## 🚀 Getting Started
 
-1. Clone the repo  
+1. **Clone the repository**
    ```bash
    git clone https://github.com/Harshitamahant/Machine_Learning_Lab.git
    cd Machine_Learning_Lab
